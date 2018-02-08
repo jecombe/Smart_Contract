@@ -22,7 +22,7 @@
     
 ## fonction_utils
 
-	-> Contient des fonctions utile pour solidity.
+	-> Contient des fonctions utiles pour solidity.
     
     
 ## Infos
