@@ -3,14 +3,19 @@ pragma solidity ^0.4.0;
 /**Convert bytes32 to string */
 
 contract Convert_Bytes32_To_String {
-	function bytes32ToString(bytes32 x) public pure  returns (string) {
+
+	string resultat;
+
+	function bytes32ToString(bytes32 x) public {
 		//variable bytesString is a memory for bytes
 		bytes memory bytesString = new bytes(32);
 		uint charCount = 0;
 		uint i = 0 ;
 		byte char;
+
 		while (i < 32)
 			{
+				//char retrieve a placement of character x, with exponentiation
 				char = byte(bytes32(uint(x) * 2 ** (8 * i)));
 				if (char != 0) {
 					bytesString[charCount] = char;
@@ -24,6 +29,10 @@ contract Convert_Bytes32_To_String {
 				bytesStringTrimmed[i] = bytesString[i];
 				i++;
 			}
-			return string(bytesStringTrimmed);
+			resultat = string(bytesStringTrimmed);
+	}
+	function retourne_resultat () public constant returns (string)
+	{
+		return resultat;
 	}
 }
