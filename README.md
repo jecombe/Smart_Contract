@@ -2,30 +2,33 @@
 
 > Développement de fonctions basiques du langage solidity.
 
+<code><span style="display:block;line-height:8px; font-size: 8px; font-weight:bold;white-space:pre;font-family: monospace;color: black; background: white;">
 
-One to two paragraph statement about your product and what it does.
+
+Contient trois dossiers:
+	-> fonction_get;
+	-> fonction_set_get;
+	-> fonction_utils;
 
 ![](header.png)
 
 
-## Usage example
+## fonction_get
 
-	A few motivating and useful examples of how your product can be used. Spice this up with code blocks and potentially more screenshots.
-
-	_For more examples and usage, please refer to the [Wiki][wiki]._
+	-> Contient des fonctions permettant de retourner une / (des) valeur(s).
 
 
 
-## Reference
+## fonction_set_get
 
-        http://solidity.readthedocs.io/en/develop/index.html#
+	-> Contient des fonctions permettant d'ajouter et  retourner une / (des) valeur(s).
 
 
-## Meta
+## fonction_utils
 
-	Your Name – [@YourTwitter](https://twitter.com/dbader_org) – jeremcombe@hotmail.fr
+	-> Contient des fonctions utile pour solidity.
 
-	Distributed under the XYZ license. See ``LICENSE`` for more information.
+## Infos
 
-	[https://github.com/jecombe/github-link](https://github.com/dbader/)
-
+	-> Toutes ces fonctions sont realisés avec un contract associé.
+	-> La compilation se fait grace à remix IDE: https://remix.ethereum.org
