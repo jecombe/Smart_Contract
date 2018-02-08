@@ -2,7 +2,7 @@ pragma solidity ^0.4.0;
 
 /**Convert bytes32 to string */
 
-contract C {
+contract Convert_Bytes32_To_String {
 	function bytes32ToString(bytes32 x) public pure  returns (string) {
 		//variable bytesString is a memory for bytes
 		bytes memory bytesString = new bytes(32);
