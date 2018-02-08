@@ -17,7 +17,7 @@
     
 ## fonction_set_get
 
-	-> Contient des fonctions permettant d'ajouter et  retourner une / (des) valeur(s).
+	-> Contient des fonctions permettant d'ajouter et retourner une / (des) valeur(s).
     
     
 ## fonction_utils
